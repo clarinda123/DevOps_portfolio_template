@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DevOps Engineer Portfolio</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --primary-color: #2d3448;
+      --accent-color: #4fd1c5;
+      --bg-color: #edf2f7;
+      --text-color: #2d3748;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: var(--primary-color);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #fffffffe;
+    }
+
+    nav a {
+      color: #fff;
+      margin-left: 1rem;
+      text-decoration: none;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80') no-repeat center center/cover;
+      height: 75vh;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 1.5rem 2rem;
+      border-radius: 8px;
+      display: inline-block;
+    }
+
+    .hero-content h2,
+    .hero-content p {
+      color: #ffffff;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: -4rem auto 2rem;
+      padding: 2rem;
+      background-color: #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    h2 {
+      color: var(--primary-color);
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid var(--accent-color);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 2rem;
+    }
+
+    th,
+    td {
+      padding: 0.8rem;
+      border: 1px solid #ddd;
+    }
+
+    th {
+      background-color: var(--primary-color);
+      color: white;
+    }
+
+    ul {
+      margin-bottom: 2rem;
+      padding-left: 1.5rem;
+    }
+
+    .tools img {
+      height: 40px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: var(--primary-color);
+      color: white;
+    }
+
+    .social-links a {
+      color: var(--accent-color);
+      margin-right: 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Engonwei Tidding Clarinda</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills &amp; Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#tools">Tools</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h2>DevOps &amp; Cloud Engineer | AWS | Azure</h2>
+      <p>Automating and innovating with cloud solutions.</p>
+    </div>
+  </section>
+
+  <div class="container">
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello! I'm <strong>E T Clarinda</strong>, an experienced DevOps and Cloud engineer with over 5
+        years of hands-on expertise in managing, automating and
+        optimizing crucial deployments on AWS and Azure. Proficient in using DevOps tools like Git, Jenkins, Terraform,
+        Ansible, Docker, Kubernetes and more. Focused on leveraging automation, cloud solutions, and
+        continuous improvement to deliver efficient and scalable software systems using AWS and Azure cloud services.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills &amp; Projects</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Skill</th>
+            <th>Associated&nbsp;Project (GitHub)</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>CI/CD Automation</td>
+            <td>
+              <a href="https://github.com/clarinda123/CI-CD-Project" target="_blank" rel="noopener noreferrer">
+                End-to-End CI/CD Pipeline (Jenkins&nbsp;+&nbsp;GitHub&nbsp;Actions)
+              </a>
+            </td>
+          </tr>
+
+        <tbody>
+          <tr>
+            <td>CI/CD Automation</td>
+            <td>
+              <a href="https://github.com/clarinda123/CI-CD-Project" target="_blank" rel="noopener noreferrer">
+                End-to-End CI/CD Pipeline (Jenkins&nbsp;+&nbsp;GitHub&nbsp;Actions)
+              </a>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Scripting</td>
+            <td>
+              <a href="https://github.com/clarinda123/bash-scripting" target="_blank" rel="noopener noreferrer">
+                Bash-scripting &amp; installation script
+              </a>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Infrastructure as Code</td>
+            <td>
+              <a href="https://github.com/clarinda123/Valaxy-terraform-3t-architecture" target="_blank"
+                rel="noopener noreferrer">
+                AWS Infrastructure with Terraform
+              </a>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Containerization</td>
+            <td>
+              <a href="https://github.com/clarinda123/devops-workshop" target="_blank" rel="noopener noreferrer">
+                Docker &amp; Kubernetes on AWS EKS
+              </a>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Monitoring</td>
+            <td>
+              <a href="https://github.com/clarinda123/SSManager_projects" target="_blank" rel="noopener noreferrer">
+                Prometheus &amp; Grafana Stack
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="experience">
+      <h2>Professional Experience</h2>
+
+      <h3>DevOps Engineer at Effulgence Tech (June 2022&nbsp;-&nbsp;Present)</h3>
+      <ul>
+        <li>Manage and maintain CI/CD pipelines for multiple projects, resulting in a reduction in deployment time.</li>
+        <li>Collaborate with cross-functional teams to automate infrastructure provisioning using Terraform and Ansible,
+          leading to a decrease in manual errors.</li>
+        <li>Implement monitoring and alerting solutions (such as Prometheus and Grafana) to ensure high availability and
+          performance of applications, reducing downtime.</li>
+        <li>Conduct regular performance, testing and optimization on cloud infrastructure (AWS) to scale applications
+          efficiently, achieving cost reduction.</li>
+        <li>Collaborate with clients to meet business goals and solve problems using cloud solutions AWS provides by
+          translating business requirements to technology using AWS well architected framework</li>
+        <li>Lead the migration of legacy applications to containerized environments using Docker and Kubernetes,
+          resulting in improved resource utilization.</li>
+        <li>Develop custom scripts and utilities in Bash to automate routine tasks, saving time.</li>
+        <li>Provide technical support to other team members if needed..</li>
+        <li>Conduct regular security assessments and implement best practices to ensure compliance with industry
+          standards.</li>
+        <li>Document infrastructure configurations and process to maintain comprehensive and up-to-date documentation
+          for future reference.</li>
+      </ul>
+
+      <h3>Junior Linux &amp; Cloud Infrastructure Engineer at WirfonCloud (March 2020&nbsp;-&nbsp;June 2022)</h3>
+      <ul>
+        <li>Managed and optimized cloud infrastructure for Effulgencetech, ensuring high availability and scalability of
+          services.</li>
+        <li>Implemented automation using Terraform and Ansible, reducing manual configuration time by 40%.</li>
+        <li>Administered AWS resources, including EC2 instances, S3 buckets, RDS databases, and Lambda functions.</li>
+        <li>Conducted regular performance monitoring and tuning, resulting in a 25% increase in system efficiency.</li>
+        <li>Collaborated with development teams to design and implement CI/CD pipelines using Jenkins and GitLab CI.
+        </li>
+        <li>Resolved production incidents promptly, achieving a 99.99% uptime for critical services.Conducted security
+          assessments and implemented best practices, resulting in a 30% decrease in security vulnerabilities.</li>
+        <li>Optimized cost management strategies, leading to a 15% reduction in cloud infrastructure expenses.</li>
+        <li>Implemented disaster recovery solutions using AWS services such as AWS Backup and AWS Disaster Recovery.
+        </li>
+        <li>Contributed to the migration of on-premises infrastructure to AWS, resulting in a 50% reduction in
+          maintenance overhead.</li>
+      </ul>
+
+      <h3>Scrum Master at MoneyFex (Dec 2019&nbsp;-&nbsp;March 2020)</h3>
+      <ul>
+        <li>Facilitated daily stand-ups, sprint planning, retrospectives, and other Scrum ceremonies.</li>
+        <li>Managed the Scrum process, ensuring team members adhered to Scrum methodology.</li>
+        <li>Collaborated with the Product Owners to identify, prioritize, and plan user stories. </li>
+        <li>Acted as a mediator between the development team and Product Owners.</li>
+        <li>Monitored team progress and provided regular updates to senior management</li>
+        <li>Developed and implemented strategies to reduce waste, optimize workflow, and improve product quality.</li>
+        <li>Mentored team members on Agile and Scrum best practices.</li>
+      </ul>
+    </section>
+
+    <section id="tools">
+      <h2>Tools &amp; Technologies</h2>
+      <div class="tools">
+        <!-- Existing Logos -->
+        <img src="https://img.shields.io/badge/Linux-FCC624.svg?&logo=linux&logoColor=black" alt="Linux">
+        <img src="https://img.shields.io/badge/Maven-C71A36.svg?&logo=apache-maven&logoColor=white" alt="Maven">
+        <img src="https://img.shields.io/badge/SonarQube-4E9BCD.svg?&logo=sonarqube&logoColor=white" alt="SonarQube">
+        <img src="https://img.shields.io/badge/Jenkins-D24939.svg?&logo=jenkins&logoColor=white" alt="Jenkins">
+        <img src="https://img.shields.io/badge/GitHub_Actions-2088FF.svg?&logo=github-actions&logoColor=white"
+          alt="GitHub Actions">
+        <img src="https://img.shields.io/badge/Terraform-623CE4.svg?&logo=terraform&logoColor=white" alt="Terraform">
+        <img src="https://img.shields.io/badge/Docker-2496ED.svg?&logo=docker&logoColor=white" alt="Docker">
+        <img src="https://img.shields.io/badge/Kubernetes-326CE5.svg?&logo=kubernetes&logoColor=white" alt="Kubernetes">
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p><a href="mailto:youremail@example.com">engonweitiddingclarinda@gmail.com</a></p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/engonwei-tidding-clarinda-3a0669288/" target="_blank"
+          rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com/clarinda123" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>© 2025 Your Name's DevOps Portfolio. All Rights Reserved.</p>
+  </footer>
+
+</body>
+
+</html>
